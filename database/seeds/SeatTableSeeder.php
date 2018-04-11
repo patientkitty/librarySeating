@@ -18,7 +18,7 @@ class SeatTableSeeder extends Seeder
     public function run()
     {
         // $this->call(UsersTableSeeder::class);
-        for($i=1;$i<=3;$i++){
+        for($i=4;$i<=6;$i++){
             Seat::create([
                 'seat_code' => 'test00' . $i,
                 'seat_desc' => 'test seat 00' . $i,

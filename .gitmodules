@@ -1,0 +1,3 @@
+[submodule "public/weui"]
+	path = public/weui
+	url = https://github.com/weui/weui.git
